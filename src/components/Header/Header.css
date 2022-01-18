@@ -1,0 +1,31 @@
+.header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	height: 34em;
+}
+
+@media (max-width: 1050px) {
+	.header {
+		height: 43em;
+	}
+}
+
+@media (max-width: 700px) {
+	.header {
+		height: 30em;
+	}
+}
+
+@media (max-width: 600px) {
+	.header {
+		height: 38em;
+	}
+}
+
+@media (max-width: 550px) {
+	.header {
+		height: 28em;
+	}
+}

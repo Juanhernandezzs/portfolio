@@ -1,0 +1,33 @@
+.skillcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7em;
+  padding-bottom: 2em;
+}
+
+@media (max-width: 550px) {
+  .skills {
+    padding-top: 4em;
+  }
+}
+
+.skillstext {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-size: var(--h-md);
+}

@@ -1,0 +1,74 @@
+.project {
+  width: 100%;
+  margin-bottom: 3rem;
+  flex-shrink: 1;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .project::before {
+  content: "";
+  background-image: radial-gradient(
+    circle,
+    var(--secondary) 0%,
+    var(--secondary) 15%,
+    transparent 30%,
+    transparent
+  );
+} */
+
+.project__img {
+  background-size: 10px 10px;
+  width: 80%;
+  height: 100%;
+  top: 1.75rem;
+  left: -1.75rem;
+  z-index: -1;
+}
+
+@media (max-width: 550px) {
+  .project__img {
+    width: 100%;
+  }
+}
+
+.project__img-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 200ms transform;
+  border: 5px solid var(--secondary2);
+}
+
+.project__img-2:hover {
+  transform: scale(1.03);
+  overflow: hidden;
+}
+
+.project__title {
+  color: var(--primary-100);
+  margin-bottom: 0.2em;
+  font-size: var(--h-sm);
+}
+
+.project__textcontainer {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.downloadbtn + .downloadbtn {
+  margin-left: 2em;
+}
+
+@media (max-width: 500px) {
+  .downloadbtn + .downloadbtn {
+    margin-left: 0;
+  }
+  .downloadbtn {
+    min-width: 11em;
+    margin-top: 1em;
+  }
+}

@@ -1,0 +1,23 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 7em;
+}
+
+@media (max-width: 550px) {
+  .portfolio {
+    padding-top: 4em;
+  }
+}
+
+.portfolio__list {
+  z-index: 10;
+  background-color: var(--dark);
+}
+
+.portfolio__intro {
+  margin-bottom: 3em;
+}
