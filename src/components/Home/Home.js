@@ -9,7 +9,7 @@ import text from './text.js'
 function Home() {
     const { Lang } = useContext(LanguageContext);
     const t = text[Lang];
-    const currentLang = Lang
+    const currentLang = localStorage.getItem('siteLanguage')
 
     return (
         <div className='intro'>
