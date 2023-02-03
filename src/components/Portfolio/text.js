@@ -7,6 +7,9 @@ export default {
         },
         gameSearch: {
             description: `Single Page Application about videogames made with HTML, CSS, JavaScript, React, Redux, Node, Express, Sequelize and PostgreSQL.`
+        },
+        coperos: {
+            description: `Sports forecast mainly developed to use in the FIFA World Cup Qatar 2022.`
         }
     },
     es: {
@@ -17,6 +20,9 @@ export default {
         },
         gameSearch: {
             description: 'Single Page Application sobre videojuegos hecha con HTML, CSS, JavaScript, React, Redux, Node, Express, Sequelize y PostgreSQL.'
+        },
+        coperos: {
+            description: `Pronóstico deportivo desarrollado principalmente para usarse en la Copa Mundial de la FIFA Catar 2022.`
         }
     }
 }
