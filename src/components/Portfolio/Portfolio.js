@@ -18,7 +18,7 @@ function Portfolio() {
                 <p>{t.subtitle}</p>
             </div>
             <div className='portfolio__list'>
-                <ProjectCard title='Amadeus E-Commerce' desc={t.amadeus.description} linkPage='https://amadeus.vercel.app/' linkRepo='https://github.com/Juanhernandezzs/AmadeuS-E-Commerce' img={Amadeus} />
+                <ProjectCard title='Amadeus E-Commerce' desc={t.amadeus.description} linkPage='https://amadeus-e-commerce.vercel.app/' linkRepo='https://github.com/Juanhernandezzs/AmadeuS-E-Commerce' img={Amadeus} />
                 <ProjectCard title='GameSearch' desc={t.gameSearch.description} linkPage='https://jh-game-search.herokuapp.com/' linkRepo='https://github.com/Juanhernandezzs/PI-Videogames-FT15a' img={GameSearch} />
                 <ProjectCard title='Coperos' desc={t.coperos.description} linkPage='https://coperos.com/' linkRepo='https://github.com/Coperos/coperos' img={Coperos} />
             </div>
